@@ -119,7 +119,9 @@ class _HomePageState extends State<HomePage> {
     actions: [
       IconButton(
         padding: EdgeInsets.only(top: kDefaultPadding, right: kDefaultPadding),
-        onPressed: () {}, 
+        onPressed: () {
+          Navigator.pop(context);
+        },
         icon: Icon(Icons.menu, color: Colors.black, size: 32,)
       )
     ],
